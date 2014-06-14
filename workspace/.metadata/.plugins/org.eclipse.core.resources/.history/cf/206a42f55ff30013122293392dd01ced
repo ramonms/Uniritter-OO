@@ -1,0 +1,9 @@
+package aula_II;
+
+public class Retangulo {
+
+	public Retangulo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

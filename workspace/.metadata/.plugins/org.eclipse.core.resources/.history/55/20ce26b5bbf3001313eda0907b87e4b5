@@ -1,0 +1,69 @@
+package aula_II;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class testFiguras {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testCirculo() {
+		//fail("Not yet implemented");
+		Circulo bola = new Circulo();
+		bola.raio=2;
+		assertEquals(12.566,bola.calculaArea(),0.001);
+		assertEquals(12.566,bola.calculaPerimetro(),0.001);
+	}
+	
+	@Test
+	public void testRetangulo() {
+		//fail("Not yet implemented");
+		Retangulo quadro= new Retangulo();
+		quadro.base = 8;
+		quadro.altura = 4;
+		assertEquals(32,quadro.calculaArea(),0.001);
+		assertEquals(24,quadro.calculaPerimetro(),0.001);		
+	}	
+
+	@Test
+	public void testTriangulo() {
+		//fail("Not yet implemented");
+		Triangulo piramide= new Triangulo();
+		piramide.lado1 = 5;
+		piramide.lado2 = 5;
+		piramide.lado3 = 5;
+
+		assertEquals(7.5,piramide.calculaArea(),0.001);
+		assertEquals(15,piramide.calculaPerimetro(),0.001);		
+	}	
+	
+	@Test
+	public void testTipoTriangulo() {
+		Triangulo piramide= new Triangulo();
+		piramide.lado1 = 5;
+		piramide.lado2 = 5;
+		piramide.lado3 = 5;
+
+		assertEquals("EQUILÁTERO",piramide.tipoTriangulo());		
+	}	
+}

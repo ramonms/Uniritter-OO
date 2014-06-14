@@ -1,0 +1,9 @@
+package aula_II;
+
+public class Triangulo {
+
+	public Triangulo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

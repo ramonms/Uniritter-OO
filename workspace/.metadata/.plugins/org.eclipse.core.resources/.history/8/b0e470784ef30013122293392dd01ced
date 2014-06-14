@@ -1,0 +1,9 @@
+package aula_II;
+
+public class poupanca extends conta{
+
+	public poupanca() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

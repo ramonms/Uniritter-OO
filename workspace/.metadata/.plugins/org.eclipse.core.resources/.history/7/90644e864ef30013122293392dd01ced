@@ -1,0 +1,9 @@
+package aula_II;
+
+public class poupanca extends conta{
+
+	public poupanca() {
+		setSaldo(100);
+	}
+
+}

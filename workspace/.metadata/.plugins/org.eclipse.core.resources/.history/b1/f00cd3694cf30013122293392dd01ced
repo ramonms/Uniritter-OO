@@ -1,0 +1,12 @@
+package aula_II;
+
+public class conta {
+	float saldo = new float;
+
+	public conta() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

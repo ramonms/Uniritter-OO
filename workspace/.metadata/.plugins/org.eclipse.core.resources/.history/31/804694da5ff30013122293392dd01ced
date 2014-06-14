@@ -1,0 +1,9 @@
+package aula_II;
+
+public class Figura {
+
+	public Figura() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

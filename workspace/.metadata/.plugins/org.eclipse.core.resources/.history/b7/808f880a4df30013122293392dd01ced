@@ -1,0 +1,13 @@
+package aula_II;
+import java.lang.*;
+
+public class conta {
+	integer saldo = new integer;
+
+	public conta() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}
